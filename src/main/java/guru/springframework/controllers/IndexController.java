@@ -10,7 +10,6 @@ import guru.springframework.services.RecipeService;
 @Controller
 public class IndexController
 {
-
     private final RecipeService recipeService;
 
     public IndexController(RecipeService recipeService)
@@ -26,5 +25,4 @@ public class IndexController
 
         return "index";
     }
-
 }
